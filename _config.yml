@@ -104,6 +104,7 @@ defaults:
       read_time: true
       comments: true
       share: true
+      author_profile: true
       related: true
 
 # Reading Files
