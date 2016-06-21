@@ -93,7 +93,7 @@ author:
   xing             :
   youtube          :
 
-#Post Settings
+# Post Settings
 defaults:
   # _posts
   - scope:
