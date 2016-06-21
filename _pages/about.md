@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-![al{}t]({{ site.url }}/{{ site.baseurl }}/images/bio-dp.png)
+![al{}t]({{ site.url }}/images/bio-dp.png)
 {: .full}
 
 Hi! My name's Jett. I love smiling, eating, coding, listening to indie music, and living a healthy lifestyle. I also have a weakness for anything with matcha and cinammon.
