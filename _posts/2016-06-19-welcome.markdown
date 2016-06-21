@@ -1,0 +1,16 @@
+---
+layout: single
+title:  "Welcome to my blog! An Overview of What to Expect"
+date:   2016-06-19
+categories: update
+---
+
+Hello falafellas! Thank you for reading my first post.
+I will be covering the following topics in the weeks to come in a series of post.
+
+- Version Control System (VCS)
+- Design Patterns and Principles
+- Functional Reactive Programming (FRP) with RxJava
+
+I hope they get you excited as much as I do!
+I will do my best to explain everything in layman's terms. Stay tuned!
