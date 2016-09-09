@@ -7,11 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Code Falafel"
+title                    : "Jett.teach()"
 title_separator          : "-"
 name                     : "Jett Robin Andres"
-description              : "Welcome to my technical blog! I will be posting my lifetime learnings
-here as a programmer and mobile app developer enthusiast."
+description              : "My Professional Learning as Tutorials for Everyday Developers."
 url                      : "https://jettandres.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
@@ -84,7 +83,7 @@ author:
   linkedin         : "jettrobinandres"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : "2555370/jettlag" # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
   twitter          :
