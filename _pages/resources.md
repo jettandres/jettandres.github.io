@@ -10,9 +10,12 @@ Feel free to bookmark this page.
 
 <h3>General</h3>
   - [Derek Banas](https://www.youtube.com/user/derekbanas)
+  - [App Launch Guide by Adam Wulf](https://github.com/adamwulf/app-launch-guide/blob/master/README.md)
 
 <h3>Android</h3>
   - [Slidenerd](http://www.slidenerd.com/)
+  - [Android Best Practices by Futurice](https://github.com/futurice/android-best-practices)
 
 <h3>iOS</h3>
   - [Rey Wenderlich](https://www.raywenderlich.com/category/ios)
+  - [iOS Good Practices by Futurice](https://github.com/futurice/ios-good-practices)
