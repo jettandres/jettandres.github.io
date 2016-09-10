@@ -36,4 +36,4 @@ Now imagine if the game completely removed the **save feature/checkpoints/bonfir
 
 Anyway, that is it for now in my introductory post about VCS. I hope you get a grasp by now of how important a save feature is.
 
-In my next part of the series, we'll cover the difference between the *standard save* **(Ctrl + S or Command + S)** and the **VCS** *way of saving* files using **Git**. Thanks for reading!
+In my next part of the series, we'll cover the difference between the *standard save* `Ctrl + S` or `Command + S` and the **VCS** *way of saving* files using **Git**. Thanks for reading!
