@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Welcome to my blog! Overview of What to Expect"
-date:   2016-09-09
+date:   2016-09-08
 categories: update
 ---
 

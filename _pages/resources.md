@@ -13,7 +13,7 @@ Feel free to bookmark this page.
   - [App Launch Guide by Adam Wulf](https://github.com/adamwulf/app-launch-guide/blob/master/README.md)
 
 <h3>Android</h3>
-  - [Slidenerd](http://www.slidenerd.com/)
+  - [Slidenerd](https://www.youtube.com/user/slidenerd)
   - [Android Best Practices by Futurice](https://github.com/futurice/android-best-practices)
 
 <h3>iOS</h3>
