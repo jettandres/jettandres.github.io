@@ -36,7 +36,7 @@ Let us start at Baclaran LRT 1 station below. Imagine each consecutive **station
 
 It simply means that anyone who has a copy of our **single file (LRT 1)** will also get a copy of our two other versions called **purple (LRT 2)** and **blue (MRT 3)**.
 
- **With a Distributed VCS like Git, we do not need to duplicate our *single file (LRT 1)* and rename them manually to *purple (LRT 2)* and *blue (MRT 3)*. It manages all that work for us neatly. And any changes we commit to the file would only persist on our own copy until pushed/uploaded to a centralized Repository!**
+ **With a Distributed VCS like Git, we do not need to duplicate our *single file (LRT 1)* and rename them manually to *purple (LRT 2)* and *blue (MRT 3)*. It manages all that work for us neatly. And any changes we commit to the file would only persist in our own copy until pushed/uploaded to a centralized Repository!**
 
 **Bonus fact:** Both saves can actually work in harmony!
 
