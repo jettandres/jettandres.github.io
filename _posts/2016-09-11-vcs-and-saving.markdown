@@ -15,7 +15,7 @@ Alright here we go.
 
 ## The Standard Save: (`Ctrl + S` / `Command + S`)
 
-We all now this. The superhero we call whenever we need to take a break to do other things.
+We all know this. The superhero we call whenever we need to take a break to do other things.
 This is a universal desktop language to every computer user out there regardless of what Operating System he or she uses along with `Ctrl + C` / `Command + C` and `Ctrl + V` / `Command + V`.
 
 Let us take note that hitting `Ctrl + S` / `Command + S` only saves the **currently opened file** from a specific location in your computer.
