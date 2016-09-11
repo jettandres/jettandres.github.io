@@ -1,6 +1,10 @@
-# Minimal Mistakes Jekyll Theme
+# [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/)
+
+[![GitHub release](https://img.shields.io/github/release/mmistakes/minimal-mistakes.svg)](https://github.com/mmistakes/minimal-mistakes/releases) [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)
 
 Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies --- styling is purposely minimalistic to be enhanced and customized by you :smile:.
+
+See what's new in the [CHANGELOG](CHANGELOG.md).
 
 [![Minimal Mistakes live preview][2]][1]
 
@@ -16,11 +20,13 @@ The theme includes responsive layouts (`single`, `archive`, and `splash` pages) 
 ### Notable Features
 
 - Compatible with Jekyll 3.x and GitHub Pages
+- Support for Jekyll's built-in Sass/SCSS preprocessor
 - Several layout options (single, archive, splash pages)
 - SEO optimized with support for [Twitter Cards](https://dev.twitter.com/cards/overview) and [Open Graph](http://ogp.me/) data
 - Optional header images, sidebars, table of contents, galleries, related posts, breadcrumb links, and more.
-- Optional comments ([Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), Google+, [Discourse](https://www.discourse.org/), and custom).
+- Optional comments ([Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), Google+, [Discourse](https://www.discourse.org/), static-based via [Staticman](https://staticman.net/), and custom).
 - Optional analytics ([Google Analytics](https://www.google.com/analytics/) and custom).
+- UI localized text: English (default), Spanish, French, and Turkish.
 
 #### Demo Pages
 
@@ -62,6 +68,14 @@ To help me out try to avoid creating pull requests on `master` and instead branc
 ---
 
 ## Credits
+
+### Creator
+
+**Michael Rose**
+
+- <https://mademistakes.com>
+- <https://twitter.com/mmistakes>
+- <https://github.com/mmistakes>
 
 ### Icons + Demo Images:
 

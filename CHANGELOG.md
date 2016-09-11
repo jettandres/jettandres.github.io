@@ -1,3 +1,201 @@
+## [3.4.6](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.4.6)
+
+### Enhancements
+
+- Add Italian "comments" related localized UI text. [#514](https://github.com/mmistakes/minimal-mistakes/pull/514)
+
+### Bug Fixes
+
+- Disable `compress` HTML layout by default. To enable add `layout: compress` to `_layouts/default.html`.
+
+## [3.4.5](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.4.5)
+
+### Enhancements
+
+- Improve line numbered code block styling when using `{% highlight linenos %}` tag. [#513](https://github.com/mmistakes/minimal-mistakes/issues/513)
+- Add English fallback to "Follow" button label. [#496](https://github.com/mmistakes/minimal-mistakes/pull/496)
+
+### Bug Fixes
+
+- Fix Firefox alignment issues with code blocks generated with the `{% highlight %}` tag. [#512](https://github.com/mmistakes/minimal-mistakes/issues/512)
+
+### Maintenance
+
+- Clarified comment for `author.stackoverflow` value used in author sidebar links. [#487](https://github.com/mmistakes/minimal-mistakes/pull/487)
+- Add list of localized text strings. [#488](https://github.com/mmistakes/minimal-mistakes/pull/488)
+- Add `{% highlight %}` code block examples to demo site.
+- Add documentation for using custom sidebar navigation menus. [#476](https://github.com/mmistakes/minimal-mistakes/issues/476)
+
+## [3.4.4](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.4.4)
+
+### Enhancements
+
+- Add French "comments" related localized UI text. [#472](https://github.com/mmistakes/minimal-mistakes/pull/472)
+
+### Bug Fixes
+
+- Exclude `vendor` in Jekyll config file.
+- Fix Liquid syntax error for offending parenthesis. [#479](https://github.com/mmistakes/minimal-mistakes/issues/479)
+
+### Maintenance
+
+- Update gems: `colorator` (1.1.0), `forwardable-extended` (2.6.0), `github-pages` (93), `jekyll` (= 3.2.1), `minima` (= 1.0.1).
+
+## [3.4.3](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.4.3)
+
+### Enhancements
+
+- Make ["honeypot" `input`](https://github.com/mmistakes/minimal-mistakes/commit/06a8249a69a37dddda7e2a5bfbe32056c1a9a607) in Staticman comment form less obvious to spam bots
+- Add padding to `.highlight` code blocks to better [align `overflow` scrollbar](https://github.com/mmistakes/minimal-mistakes/commit/e4abec0a6f7f8cff72505ca0754615df294fd5b3) to the bottom.
+- Add additional image options for Twitter card social sharing meta tags. [#466](https://github.com/mmistakes/minimal-mistakes/pull/466)
+- Add structured data markup for Staticman comments. [#458](https://github.com/mmistakes/minimal-mistakes/issues/458)
+
+### Bug Fixes
+
+- Format `og:locale` tag with `_` instead of `-`. [#462](https://github.com/mmistakes/minimal-mistakes/issues/462)
+
+### Maintenance
+
+- Add note to docs about using `url: http://localhost:4000` when working locally.
+
+## [3.4.2](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.4.2)
+
+### Enhancements
+
+- Improve UX of static comment forms. [#448](https://github.com/mmistakes/minimal-mistakes/issues/448)
+
+## [3.4.1](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.4.1)
+
+### Enhancements
+
+- Add `staticman.filename` configuration with UNIX timestamp for sorting data files. example ~> `comment-1470943149`.
+
+### Bug Fixes
+
+- Don't add `<a>` to author name if URL is blank.
+
+## [3.4.0](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.4.0)
+
+### Enhancements
+
+- Support static-based commenting via [Staticman](https://staticman.net/) for sites hosted with GitHub Pages. [#424](https://github.com/mmistakes/minimal-mistakes/issues/424)
+
+## [3.3.7](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.3.7)
+
+### Bug Fixes
+
+- Re-enabled Jekyll plugins in `_config.yml` in case they aren't autoloaded in `Gemfile`. [#417](https://github.com/mmistakes/minimal-mistakes/issues/417)
+
+### Enhancements
+
+- Fallback to `site.github.url` for use in `{{ base_path }}` when `site.url` is `nil`.
+- Replace Sass and Autoprefixer `npm` build scripts with [Jekyll's built-in asset support](https://jekyllrb.com/docs/assets/). [#333](https://github.com/mmistakes/minimal-mistakes/issues/333)
+
+### Maintenance
+
+- Document `site.repository` and its role with [`github-metadata`](https://github.com/jekyll/github-metadata) gem.
+- Add sample [archive page with content](https://mmistakes.github.io/minimal-mistakes/archive-layout-with-content/) for testing styles on demo site.
+
+## [3.3.6](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.3.6)
+
+### Bug Fixes
+
+- Fix blank `site.teaser` bug. [#412](https://github.com/mmistakes/minimal-mistakes/issues/412)
+
+## [3.3.5](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.3.5)
+
+### Enhancements
+
+- Add English default text `site.locale` strings. [#407](https://github.com/mmistakes/minimal-mistakes/issues/407)
+- Add Portuguese localized UI text. [#411](https://github.com/mmistakes/minimal-mistakes/pull/411)
+- Add Italian localized UI text. [#409](https://github.com/mmistakes/minimal-mistakes/pull/409)
+
+### Maintenance
+
+- Remove unused Google AdSense variables in `_config.yml`. [#404](https://github.com/mmistakes/minimal-mistakes/issues/404)
+- Update `Gemfile` instructions for using `github-pages` vs. native `jekyll` gems.
+- Disable `gems:` in `_config.yml` and enable plugins with Bundler instead.
+- Add `repository` to `_config.yml` to suppress GitHub Pages error `Liquid Exception: No repo name found.`
+
+## [3.3.4](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.3.4)
+
+### Enhancements
+
+- Add support for configurable feed URL to use a service like FeedBurner instead of linking directly to `feed.xml` in `<head>` and the site footer. [#378](https://github.com/mmistakes/minimal-mistakes/issues/378), [#379](https://github.com/mmistakes/minimal-mistakes/pull/379), [#406](https://github.com/mmistakes/minimal-mistakes/pull/406)
+- Add Turkish localized UI text. [#403](https://github.com/mmistakes/minimal-mistakes/pull/403)
+
+### Maintenance
+
+- Update gems: `activesupport` (4.2.7), `ffi` (1.9.14), `github-pages` (88), `jekyll-redirect-from` (0.11.0), `jekyll-watch` (1.5.0).
+
+## [3.3.3](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.3.3)
+
+### Enhancements
+
+- Make footer stick to the bottom of the page.
+
+### Bug Fixes
+
+- Fix `gallery` size bug [#402](https://github.com/mmistakes/minimal-mistakes/issues/402)
+
+### Maintenance
+
+- Set default `lang` to `en`.
+
+## [3.3.2](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.3.2)
+
+### Bug Fixes
+
+- Fix JavaScript that triggers "sticky" sidebar to avoid layout issues on screen sizes < `1024px`. [#396](https://github.com/mmistakes/minimal-mistakes/issues/396)
+
+## [3.3.1](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.3.1)
+
+### Enhancements
+
+- Enable image popup on < 500px wide screens. [#385](https://github.com/mmistakes/minimal-mistakes/issues/385)
+- Indicate the relationship between component URLs in a paginated series by applying `rel="prev"` and `rel="next"` to pages that use `site.paginator`. [#253](https://github.com/mmistakes/minimal-mistakes/issues/253)
+- Improve link posts in archive listings. [#276](https://github.com/mmistakes/minimal-mistakes/issues/276)
+
+### Maintenance
+
+- Update gems: `github-pages` (86), `ffi` 1.9.13, `jekyll-mentions` 1.1.3, and `rouge` 1.11.1
+- Fix note about custom sidebar content appearing below author profile. [#388](https://github.com/mmistakes/minimal-mistakes/issues/388)
+
+## [3.2.13](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.2.13)
+
+### Enhancements
+
+- Add English default UI text for Canada, Great Britain, and Australia. [#377](https://github.com/mmistakes/minimal-mistakes/issues/377)
+- Switch default locale from `en-US` to `en`.
+
+## [3.2.12](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.2.12)
+
+### Enhancements
+
+- Remove window width "magic number" from sticky sidebar check in `main.js` for improved flexibility. [#375](https://github.com/mmistakes/minimal-mistakes/pull/375)
+
+### Bug Fixes
+
+- Fix author override conditional where a missing `authors.yml` would show broken sidebar content. Defaults to `site.author`. [#376](https://github.com/mmistakes/minimal-mistakes/pull/376)
+
+## [3.2.11](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.2.11)
+
+### Bug Fixes
+
+- Fix disappearing author sidebar links [#372](https://github.com/mmistakes/minimal-mistakes/issues/372)
+
+### Maintenance
+
+- Update gems: `github-pages` (84), `jekyll-github-metadata` 2.0.2, and `kramdown` 1.11.1
+- Update vendor JavaScript: jQuery 1.12.4, Stickyfill.js 1.1.4
+- Update Font Awesome 4.6.3
+
+## [3.2.10](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.2.10)
+
+### Maintenance
+
+- Add `CONTRIBUTING.md`
+
 ## [3.2.9](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.2.9)
 
 ### Enhancements
@@ -65,13 +263,13 @@
 
 ## [3.2.3](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.2.3)
 
-### Enhancement
+### Enhancements
 
 - Add [Discourse](https://www.discourse.org/) as a commenting provider. [#335](https://github.com/mmistakes/minimal-mistakes/pull/335)
 
 ## [3.2.2](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.2.2)
 
-### Enhancement
+### Enhancements
 
 - Add support for image captions in Magnific Popup overlays via the [`gallery`](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#gallery) helper. [#334](https://github.com/mmistakes/minimal-mistakes/issues/334)
 
@@ -105,7 +303,7 @@
 
 ## [3.1.7](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.1.7)
 
-### Enhancement
+### Enhancements
 
 - Add translation key for "Recent Posts" used in home page `index.html`. [#316](https://github.com/mmistakes/minimal-mistakes/pull/316)
 
@@ -148,7 +346,7 @@
 
 ## [3.1.2](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.1.2)
 
-### Enhancement
+### Enhancements
 
 - Explain how to use `nav_list` helper in [documentation](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#navigation-list).
 - Reduce left/right padding on smaller screens to increase width of main content column.
