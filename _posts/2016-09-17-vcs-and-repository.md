@@ -3,6 +3,8 @@ layout: single
 title:  "Version Control System (VCS): Repository"
 date:   2016-09-17
 categories: [VCS, Git]
+header:
+  teaser: github-front.png
 ---
 
 [Previously](../vcs-and-saving "Version Conrol System: Saving?"), we talked about Saving and Distributed VCS with Git. Today I will introduce you to a Repository.
@@ -17,7 +19,7 @@ categories: [VCS, Git]
 
 **GitHub** is an example of an *online public repository*. It introduces the concept of *Open-Source* which means anyone at no cost can obtain, view, modify, and claim a copy of your code as their own.
 
->"But why is **Open-Source** such a big deal? Why would anyone want to share their code to the public?""
+>"But why is **Open-Source** such a big deal? Why would anyone want to share their code to the public?"
 
 Plenty of significant reasons. Here are some of them.
 

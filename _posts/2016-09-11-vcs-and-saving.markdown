@@ -3,6 +3,8 @@ layout: single
 title:  "Version Control System (VCS): Saving"
 date:   2016-09-11
 categories: [VCS, Git]
+header:
+  teaser: "http://2.bp.blogspot.com/-8nneMRhTbLQ/US0OfW0WO7I/AAAAAAAAB3c/dlUgiKdoo-U/s1600/train+route+map++manila+philippines.gif"
 ---
 
 In my [previous post](../vcs-why-should-i-use-one "Version Conrol System: Why Should I Use One?"), we talked about *Dark Souls* and its similarity with *Version Control System* or *VCS*. Today we are going to discuss about the difference between a *standard save* `Ctrl + S` or `Command + S` and the **VCS** *way of saving* with **Git**.

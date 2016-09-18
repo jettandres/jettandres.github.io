@@ -3,6 +3,8 @@ layout: single
 title:  "Version Control System (VCS): Why Should I Use One?"
 date:   2016-09-09
 categories: [VCS, Git]
+header:
+  teaser: "https://i.kinja-img.com/gawker-media/image/upload/sikcvngans2bjemejy6r.jpg"
 ---
 
 Have you ever played **Dark Souls** before? If not, here is a quick video to demonstrate how frustratingly difficult the game is.
